@@ -1,0 +1,186 @@
+.option-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.ztsmart-slider-settings ul li i {
+    margin-right: 5px;
+}
+span.tfremoves {
+    background: red;
+    color: #fff;
+    padding: 1px 5px;
+    display: block;
+    overflow: hidden;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+span.tfadded {
+    background: #3c8a1d;
+    color: #fff;
+    padding: 1px 5px;
+    display: block;
+    overflow: hidden;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+	text-align: center;
+}
+span.tffixed {
+    background: #ab1b77;
+    color: #fff;
+    padding: 1px 5px;
+    display: block;
+    overflow: hidden;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+	text-align: center;
+}
+.ztsmart-slider-settings {
+  margin: 20px 0;
+}
+.ztsmart-slider-settings .option-box {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.ztsmart-slider-settings .option-box .option-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.ztsmart-slider-settings .option-box .option-title span {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #999;
+	margin-top: 10px;
+}
+.ztsmart-slider-settings .option-box .option-info {
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+.ztsmart-slider-settings ul.tab-nav {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+.ztsmart-slider-settings ul.tab-nav li {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 15px 20px;
+}
+.ztsmart-slider-settings ul.tab-nav li.active{
+	background:#0974dd;
+	font-weight: bold;
+	color: #fff;
+}	
+.ztsmart-slider-settings ul.box {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+.ztsmart-slider-settings ul.box li.tab-box {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  display: none;
+  margin: 0;
+  width: 100%;
+}
+.ztsmart-slider-settings .new_user_profile_social {
+  margin: 15px 5px;
+}
+
+.ztsmart-slider-settings ul.voting-bg-img-list li {
+  display: inline-block;
+  margin: 5px;
+}
+.ztsmart-slider-settings ul.voting-bg-img-list li img{
+    border: 2px solid #ffffff;
+}
+.ztsmart-slider-settings ul.voting-bg-img-list li.bg-selected img{
+  border: 2px solid #ff5a11;
+}
+.ztsmart-slider-settings h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.ztsmart-slider-settings .expandable .items {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  margin: 2px 0;
+}
+.ztsmart-slider-settings .expandable .items.ui-sortable-helper {
+border: 1px dashed rgb(153, 153, 153);
+}
+.ztsmart-slider-settings .expandable .header {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  padding: 5px;
+}
+.ztsmart-slider-settings .expandable .active .options {  
+  display: block;
+}
+.ztsmart-slider-settings .expandable .options {
+	background: none repeat scroll 0 0 rgb(240, 240, 240);
+  display: none;
+  padding: 10px;
+}
+
+span.postsliderhints {
+    font-size: 12px;
+    color: #827d7d;
+    margin-top: 8px;
+    display: block;
+    overflow: hidden;
+    line-height: 16px;
+}
+
+
+
+
+@media all and (max-width: 799px) {
+	.ztsmart-slider-settings ul.tab-nav li {
+	  display: block;
+	  float: none;
+	}
+	.ztsmart-slider-settings ul.tab-nav li.active{
+		font-weight: bold;
+	}
+	.ztsmart-slider-settings .pricing-table .column {
+		display:block;
+		float:none;
+		width:100%;
+		border-right: 1px solid #ff9601;
+		margin: 50px 0;
+	}
+}
+
+
+	.slist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.slist li {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  background: #f5f5f5;
+}
+
+/* (B) DRAG-AND-DROP HINT */
+.slist li.hint {
+  border: 1px solid #ffc49a;
+  background: #feffb4;
+}
+.slist li.active {
+  border: 1px solid #ffa5a5;
+  background: #ffe7e7;
+}
